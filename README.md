@@ -1,1 +1,1 @@
-# RemoteSensingSegmentation
+# Remote-Sensing-Segmentation-PyTorch
