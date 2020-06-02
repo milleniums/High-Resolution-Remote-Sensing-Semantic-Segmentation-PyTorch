@@ -15,6 +15,8 @@
     ##### 2019年遥感图像稀疏表征智能分析竞赛
     coming soon!
     ##### [GID](https://arxiv.org/abs/1807.05713)
+    ![avatar](./pic/15classes_info.PNG)
+    
     coming soon!
 
 ## Contact
