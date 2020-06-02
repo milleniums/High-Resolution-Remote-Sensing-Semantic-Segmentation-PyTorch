@@ -17,6 +17,8 @@
     ##### [GID](https://arxiv.org/abs/1807.05713)
     ![avatar](./pic/15classes_data_info.PNG)
     
+    样例展示
+    ![avatar](./pic/classes_sample.jpg)
     coming soon!
 
 ## Contact
