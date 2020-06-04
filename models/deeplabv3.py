@@ -5,12 +5,12 @@ from resnet import ResNet50
 from aspp import _ASPP
 from component import _ConvBnReLU
 
+ch = [64 * 2 ** p for p in range(6)]
 
 class DeepLabV3(nn.Module):
     def __init__(self, num_classes=16, n_blocks=[3,4,6,3], atrous_rates=[6,12,18], multi_grids=[1,2,1], output_stride=16):
         super(DeepLabV3, self).__init__()
 
-        ch = [64 * 2 ** p for p in range(6)]
         print(ch)
         self.num_classes = num_classes
         self.backbone = ResNet50(n_blocks, multi_grids, output_stride)
