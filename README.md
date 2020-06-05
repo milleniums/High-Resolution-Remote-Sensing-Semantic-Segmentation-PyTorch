@@ -11,10 +11,12 @@
 
 - **语义分割**
     ##### [2019年县域农业大脑AI挑战赛](https://tianchi.aliyun.com/competition/entrance/231717/information)
-    coming soon!
+    链接:https://pan.baidu.com/s/1VXMLTCZM10quebX6Wf169w  密码:cmt7
     ##### 2019年遥感图像稀疏表征智能分析竞赛
     coming soon!
     ##### [GID](https://arxiv.org/abs/1807.05713)
+    [官方下载链接](https://x-ytong.github.io/project/GID.html)
+    
     - 数据集信息
     
         ![avatar](./pic/15classes_data_info.PNG)
