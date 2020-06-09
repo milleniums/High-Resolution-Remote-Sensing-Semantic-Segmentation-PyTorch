@@ -1,5 +1,5 @@
 # High-Resolution-Remote-Sensing-Semantic-Segmentation-PyTorch
-## 待完善……感谢关注，star or folk
+## 待完善……感谢关注，star or fork
 
 ## TODO：
    * 完善网络模型(将支持：DeepLabV3, FPN, SegNet, UNet, PSPNet)
