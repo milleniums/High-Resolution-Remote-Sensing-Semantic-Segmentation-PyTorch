@@ -1,5 +1,5 @@
 import random
-from PIL import Image, ImageOps
+from PIL import Image, ImageOps, ImageFilter
 import numpy as np
 
 
@@ -69,4 +69,13 @@ class RandomFlip(object):
             img, mask = img.transpose(Image.FLIP_LEFT_RIGHT), mask.transpose(Image.FLIP_LEFT_RIGHT)
         else:
             img, mask = img.transpose(Image.FLIP_TOP_BOTTOM), mask.transpose(Image.FLIP_TOP_BOTTOM)
+        return img, mask
+
+
+class RandomGaussianBlur(object):
+    def __init__(self, prop):
+        self.prop = prop
+    def __call__(self, img, mask, prop):
+        if random.random() < self.prop:
+            img = img.filter(ImageFilter.GaussianBlur)(radius=random.random())
         return img, mask
