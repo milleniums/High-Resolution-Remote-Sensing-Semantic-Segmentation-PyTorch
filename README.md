@@ -1,8 +1,19 @@
 # High-Resolution-Remote-Sensing-Semantic-Segmentation-PyTorch
-## 待完善……
+## 待完善……感谢关注，star or folk
 
-
-
+## TODO：
+   * 完善网络模型(将支持：DeepLabV3, FPN, SegNet, UNet, PSPNet)
+   * 完善（膨胀）预测代码
+   * 加入后处理方法
+   * 引入半监督方法：伪标签
+   * 增加数据增强方法：MixUp、Crop_and_Patch
+   * 改善代码结构
+   * 加入tensorboardX可视化输出
+   * 类别不均衡解决办法：focal loss
+   * 引入辅助loss：边缘损失、KL散度、向量场损失
+   * 总结训练步骤、技巧
+   * 分享预训练模型
+   
 ## 数据分享
 
 - **场景分类**
@@ -26,8 +37,15 @@
     - 样例展示
         ![avatar](./pic/classes_sample.jpg)
 
+
+## Reference
+
+    https://github.com/kazuto1011/deeplab-pytorch
+    https://github.com/fregu856/deeplabv3
+
+
 ## Contact
     
     author: hk
-    
+    qq：3025531252
     email: 3025531252@qq.com
