@@ -1,7 +1,7 @@
 import torch
 import torch.nn as nn
 import torchvision.models as models
-from component import _ResLayer
+from models.deeplabv3_version_2.component import _ResLayer
 
 
 class ResNet50(nn.Module):
@@ -19,13 +19,15 @@ class ResNet50(nn.Module):
         #ch = [64, 128, 256, 512, 1024, 2048]
 
         resnet = models.resnet50()
-        resnet.load_state_dict(torch.load(r"C:\Users\hekai\Desktop\github-repo\High-Resolution-Remote-Sensing-Semantic-Segmentation-PyTorch\models\pretrained_model\resnet50-19c8e357.pth"))
-        self.resnet = nn.Sequential(*list(resnet.children())[:-3])
+        resnet.load_state_dict(torch.load("models/pretrained_model/resnet50-19c8e357.pth"))
+        self.resnet = nn.Sequential(*list(resnet.children())[:-4])
         print("You are using pretrained resnet50!")
+        self.add_module("layer4", _ResLayer(n_blocks[2], ch[3], ch[4], s[2], d[2]))
         self.add_module("layer5", _ResLayer(n_blocks[3], ch[4], ch[5], s[3], d[3], multi_grids))
 
     def forward(self, x):
         out = self.resnet(x)
+        out = self.layer4(out)
         out = self.layer5(out)
         return out
 

@@ -34,6 +34,17 @@ class _ConvBnReLU(nn.Sequential):
         if relu:
             self.add_module("relu", nn.ReLU())
 
+class _Stem(nn.Sequential):
+    """
+    The 1st conv layer.
+    Note that the max pooling is different from both MSRA and FAIR ResNet.
+    """
+
+    def __init__(self, out_ch):
+        super(_Stem, self).__init__()
+        self.add_module("conv1", _ConvBnReLU(3, out_ch, 7, 2, 3, 1))
+        self.add_module("pool", nn.MaxPool2d(3, 2, 1, ceil_mode=True))
+
 
 class _Bottleneck(nn.Module):
     """

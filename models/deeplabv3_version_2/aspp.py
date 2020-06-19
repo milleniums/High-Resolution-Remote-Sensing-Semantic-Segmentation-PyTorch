@@ -1,7 +1,7 @@
 import torch
 import torch.nn as nn
 import torch.nn.functional as F
-from component import _ConvBnReLU
+from models.deeplabv3_version_2.component import _ConvBnReLU
 
 class _ImagePool(nn.Module):
     def __init__(self, in_ch, out_ch):
