@@ -37,9 +37,9 @@
     
     - 数据集信息
     
-        ![avatar](pic/fifteen_info.PNG)
+        ![avatar](pic/Fifteen_info.PNG)
         
-        ![avatar](pic/five_info.PNG)
+        ![avatar](pic/Five_info.PNG)
     
     - 样例展示
         ![avatar](./pic/classes_sample.jpg)
