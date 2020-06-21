@@ -6,7 +6,7 @@
    - [ ] 加入后处理方法
    - [ ] 引入半监督方法：伪标签
    - [ ] 增加数据增强方法：MixUp、Crop_and_Patch
-   - [ ] 加入tensorboardX可视化输出
+   - [x] 加入tensorboardX可视化输出
    - [ ] 类别不均衡解决办法：focal loss
    - [ ] 引入辅助loss：边缘损失、KL散度、向量场损失
 
