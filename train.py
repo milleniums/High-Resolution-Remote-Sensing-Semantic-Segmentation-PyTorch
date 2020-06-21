@@ -132,7 +132,7 @@ class Trainer(object):
         print('class names {}.'.format(self.train_dataset.class_names))
         print('Number samples {}.'.format(len(self.train_dataset)))
         if not args.no_val:
-            val_data_set = RSDataset(class_name, root=args.val_data_root, mode='val', sync_transforms=sync_transform)
+            val_data_set = RSDataset(class_name, root=args.val_data_root, mode='val', sync_transforms=None)
             self.val_loader = DataLoader(dataset=val_data_set,
                                          batch_size=args.val_batch_size,
                                          num_workers=args.num_workers,
