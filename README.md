@@ -1,24 +1,29 @@
 # High-Resolution-Remote-Sensing-Semantic-Segmentation-PyTorch
 ## 待完善……感谢关注，Star or Fork
 
-## TODO：
-   * 完善网络模型(将支持：DeepLabV3, FPN, SegNet, UNet, PSPNet)
-   * 完善（膨胀）预测代码
-   * 加入后处理方法
-   * 引入半监督方法：伪标签
-   * 增加数据增强方法：MixUp、Crop_and_Patch
-   * 改善代码结构
-   * 加入tensorboardX可视化输出
-   * 类别不均衡解决办法：focal loss
-   * 引入辅助loss：边缘损失、KL散度、向量场损失
-   * 总结训练步骤、技巧
-   * 分享预训练模型
+## Update soon：
+   - [ ] 完善（膨胀）预测代码
+   - [ ] 加入后处理方法
+   - [ ] 引入半监督方法：伪标签
+   - [ ] 增加数据增强方法：MixUp、Crop_and_Patch
+   - [ ] 加入tensorboardX可视化输出
+   - [ ] 类别不均衡解决办法：focal loss
+   - [ ] 引入辅助loss：边缘损失、KL散度、向量场损失
+
+
+## TODO:
+   - [ ] 完善网络模型(将支持：DeepLabV3, FPN, SegNet, UNet)
+   - [ ] 总结训练步骤、技巧
+   - [ ] 分享预训练模型
+
    
 ## 数据分享
 
 - **场景分类**
     ##### 2019年遥感图像稀疏表征智能分析竞赛
     百度网盘 链接:https://pan.baidu.com/s/1NFvL8KV4pRwumBah05GG8A  密码:x5k0
+    
+- **变化检测**
 
 - **语义分割**
     ##### [2019年县域农业大脑AI挑战赛](https://tianchi.aliyun.com/competition/entrance/231717/information)
@@ -32,7 +37,9 @@
     
     - 数据集信息
     
-        ![avatar](./pic/15classes_data_info.PNG)
+        ![avatar](pic/fifteen_info.PNG)
+        
+        ![avatar](pic/five_info.PNG)
     
     - 样例展示
         ![avatar](./pic/classes_sample.jpg)
