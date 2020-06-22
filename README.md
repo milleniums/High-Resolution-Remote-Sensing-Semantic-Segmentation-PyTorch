@@ -33,7 +33,7 @@
     #在浏览器里输入:
     远程服务器Ip:6006
    - 各项指标样例
-   ![avatar](./pic/tensorboard_example.png)
+   ![avatar](./pic/tensorboard.png)
    
    - 可视化测试集样例（img, GT, Pre）
    ![avatar](./pic/visualize_example.png)
