@@ -38,7 +38,7 @@
    
    - 可视化测试集样例（img, GT, Pre）
    
-   ![avatar](./pic/visualize_example.png)
+   ![avatar](./pic/visualize.png)
 
     
    
