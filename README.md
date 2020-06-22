@@ -16,6 +16,28 @@
    - [ ] 总结训练步骤、技巧
    - [ ] 分享预训练模型
 
+
+## 使用TensorBoard查看各项指标以及可视化（img, GT, Pre）
+   - 本地：
+   
+    tensorboard --logdir=<your_log_dir>
+   - 服务器：
+    
+    #首先使用ssh登陆服务器并转发端口:
+    ssh -L 6006:127.0.0.1:6006 远程服务器用户名@远程服务器Ip
+    (ssh -L 本地端口:本地IP:远程端口 远程服务器用户名@远程服务器Ip)
+    
+    #在服务器上运行tensorboard:
+    tensorboard --logdir=<your_log_dir>
+    
+    #在浏览器里输入:
+    远程服务器Ip:6006
+   - 各项指标样例
+   ![avatar](./pic/tensorboard.png)
+   - 可视化测试集样例（img, GT, Pre）
+   ![avatar](./pic/visualize_example.png)
+
+    
    
 ## 数据分享
 
@@ -49,6 +71,7 @@
 
     https://github.com/kazuto1011/deeplab-pytorch
     https://github.com/fregu856/deeplabv3
+    https://github.com/zijundeng/pytorch-semantic-segmentation
 
 
 ## Contact
