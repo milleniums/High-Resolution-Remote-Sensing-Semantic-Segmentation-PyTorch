@@ -1,19 +1,17 @@
 # High-Resolution-Remote-Sensing-Semantic-Segmentation-PyTorch
-## 待完善……感谢关注，Star or Fork
+遥感也许还不能预测未来，但它一定会告诉你过去和现在，以及一步步见证着未来。
 
 ## Update soon：
-   - [x] 完善（膨胀）预测代码
-   - [ ] 加入后处理方法
-   - [ ] 引入半监督方法：伪标签
-   - [ ] 增加数据增强方法：MixUp、Crop_and_Patch
+   - [x] 膨胀预测
+   - [ ] 后处理
+   - [ ] 半监督方法：伪标签
+   - [ ] 数据增强：MixUp
    - [x] 加入tensorboardX可视化输出
    - [ ] 类别不均衡解决办法：focal loss
    - [ ] 引入辅助loss：边缘损失、KL散度、向量场损失
-   - [x] 加入HDC
 
 
 ## TODO:
-   - [ ] 完善网络模型(将支持：DeepLabV3, FPN, SegNet, UNet)
    - [ ] 总结训练步骤、技巧
    - [ ] 分享预训练模型
 
