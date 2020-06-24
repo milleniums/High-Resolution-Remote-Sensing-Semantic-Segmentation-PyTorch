@@ -2,13 +2,14 @@
 ## 待完善……感谢关注，Star or Fork
 
 ## Update soon：
-   - [ ] 完善（膨胀）预测代码
+   - [x] 完善（膨胀）预测代码
    - [ ] 加入后处理方法
    - [ ] 引入半监督方法：伪标签
    - [ ] 增加数据增强方法：MixUp、Crop_and_Patch
    - [x] 加入tensorboardX可视化输出
    - [ ] 类别不均衡解决办法：focal loss
    - [ ] 引入辅助loss：边缘损失、KL散度、向量场损失
+   - [x] 加入HDC
 
 
 ## TODO:
@@ -75,6 +76,7 @@
     https://github.com/kazuto1011/deeplab-pytorch
     https://github.com/fregu856/deeplabv3
     https://github.com/zijundeng/pytorch-semantic-segmentation
+    https://github.com/jwyang/dcn.pytorch
 
 
 ## Contact
