@@ -3,8 +3,8 @@
 
 ## Update soon：
    - [x] 膨胀预测
-   - [ ] 后处理
-   - [ ] 半监督方法：伪标签
+   - [x] 后处理
+   - [x] 半监督方法：伪标签
    - [ ] 数据增强：MixUp
    - [x] 加入tensorboardX可视化输出
    - [ ] 类别不均衡解决办法：focal loss
@@ -16,9 +16,8 @@
    - [ ] 分享预训练模型
 
 
-## 项目预测图展示
-   ![avatar](pic/predict.png)
-
+## 教研室项目预测图展示
+   ![avatar](tools/post_process/blend.png)
 
 
 ## 使用TensorBoard查看各项指标以及可视化（img, GT, Pre）
@@ -82,6 +81,7 @@
     https://github.com/fregu856/deeplabv3
     https://github.com/zijundeng/pytorch-semantic-segmentation
     https://github.com/jwyang/dcn.pytorch
+    https://github.com/lin-honghui/tianchi_CountyAgriculturalBrain_top1?spm=5176.12282029.0.0.278c1bb8nTiHfq
 
 
 ## Contact
