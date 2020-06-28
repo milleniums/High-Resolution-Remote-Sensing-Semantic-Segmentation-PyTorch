@@ -1,5 +1,5 @@
 from dataset import RSDataset
-from class_names import gid_classes
+from class_names import *
 from prettytable import PrettyTable
 from torch.utils.data import DataLoader
 import numpy as np
