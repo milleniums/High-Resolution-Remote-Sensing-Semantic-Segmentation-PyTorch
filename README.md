@@ -17,6 +17,7 @@
 
 
 ## 教研室项目预测图展示
+   ![avatar](tools/post_process/vis.png)
    ![avatar](tools/post_process/blend.png)
 
 
