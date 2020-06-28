@@ -16,6 +16,11 @@
    - [ ] 分享预训练模型
 
 
+## 项目预测图展示
+   ![avatar](pic/predict.png)
+
+
+
 ## 使用TensorBoard查看各项指标以及可视化（img, GT, Pre）
    - 本地：
    
@@ -33,11 +38,11 @@
     远程服务器Ip:6006
    - 各项指标样例
    
-   ![avatar](./pic/tensorboard.png)
+   ![avatar](pic/tensorboard.png)
    
    - 可视化测试集样例（img, GT, Pre）
    
-   ![avatar](./pic/visualize.png)
+   ![avatar](pic/img_gt_pre.png)
 
     
    
@@ -48,6 +53,8 @@
     百度网盘 链接:https://pan.baidu.com/s/1NFvL8KV4pRwumBah05GG8A  密码:x5k0
     
 - **变化检测**
+    ##### 2019年遥感图像稀疏表征智能分析竞赛
+    百度网盘 链接:https://pan.baidu.com/s/1u4WKF_rRysvc0tEnrYq0Sg  密码:4udm
 
 - **语义分割**
     ##### [2019年县域农业大脑AI挑战赛](https://tianchi.aliyun.com/competition/entrance/231717/information)
@@ -66,7 +73,7 @@
         ![avatar](pic/Five_info.PNG)
     
     - 样例展示
-        ![avatar](./pic/classes_sample.jpg)
+        ![avatar](pic/classes_sample.jpg)
 
 
 ## Reference
