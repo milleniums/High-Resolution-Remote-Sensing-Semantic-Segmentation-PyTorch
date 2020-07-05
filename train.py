@@ -68,14 +68,14 @@ def parse_args():
     # environment
     parser.add_argument('--use-cuda', action='store_true', default=True, help='using CUDA training')
     parser.add_argument('--num-GPUs', type=int, default=2, help='numbers of GPUs')
-    parser.add_argument('--num_workers', type=int, default=2)
+    parser.add_argument('--num_workers', type=int, default=4)
     # validation
     parser.add_argument('--eval', action='store_true', default=False, help='evaluation only')
     parser.add_argument('--no-val', action='store_true', default=False)
 
     parser.add_argument('--best-kappa', type=float, default=0)
 
-    parser.add_argument('--total-epochs', type=int, default=120, metavar='N', help='number of epochs to train (default: 120)')
+    parser.add_argument('--total-epochs', type=int, default=12, metavar='N', help='number of epochs to train (default: 120)')
     parser.add_argument('--start-epoch', type=int, default=0, metavar='N', help='start epoch (default:0)')
 
     parser.add_argument('--resume-path', type=str, default=None)
@@ -330,6 +330,7 @@ class Trainer(object):
 
 
 if __name__ == "__main__":
+    torch.backends.cudnn.benchmark = True
     args = parse_args()
     writer = SummaryWriter(args.directory)
     trainer = Trainer(args)
