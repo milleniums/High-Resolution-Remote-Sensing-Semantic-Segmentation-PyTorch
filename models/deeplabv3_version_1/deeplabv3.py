@@ -16,7 +16,7 @@ class DeepLabV3(nn.Module):
         w = x.size()[3]
         feature_map = self.resnet(x)
         output = self.aspp(feature_map)
-        output = F.interpolate(output, size=(h/2, w/2), mode="bilinear", align_corners=False)
+        output = F.interpolate(output, size=(h, w), mode="bilinear", align_corners=False)
         return output
 
 
